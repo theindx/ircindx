@@ -1,6 +1,6 @@
 # A database of the "blog builder" bots (see https://gist.github.com/prgmrbill/16b3defc18938137d2d8).
-
-network_affected: "freenode"
+networks_affected: ["freenode"]
+description: "This bot connects to networks, starts logging without permission, and pumps the contents into a blog."
 channels: [
   "#python"
   "##javascript"
